@@ -400,7 +400,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dnsseed.litecointools.com", "dnsseed.litecoinpool.org", "dnsseed.ltc.xurious.com", "dnsseed.koin-project.com", "seed-a.litecoin.loshan.co.uk", "dnsseed.thrasher.io", ""};
+static const string mainnet_seeds[] = {"dns.weebcoin.com", ""};
 static const string testnet_seeds[] = {"testnet-seed.litecointools.com", "seed-b.litecoin.loshan.co.uk", "testnet-seed.ltc.xurious.com", "dnsseed-testnet.thrasher.io", ""};
 static const string *seeds = mainnet_seeds;
 
